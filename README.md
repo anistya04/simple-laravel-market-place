@@ -53,6 +53,11 @@ MAIL_FROM_NAME="${APP_NAME}"
 ```
 composer install
 ```
+4. Generate Jwt Secret: 
+```
+php artisan jwt:secret
+```
+
 ## Running Project
 Run the following command :
 ```
@@ -60,10 +65,6 @@ php artisan migrate:fresh --seed
 ```
 ```
 php artisan serve
-```
-4. Generate Jwt Secret: 
-```
-php artisan jwt:secret
 ```
 
 ## Test API
