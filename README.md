@@ -61,6 +61,10 @@ php artisan migrate:fresh --seed
 ```
 php artisan serve
 ```
+4. Generate Jwt Secret: 
+```
+php artisan jwt:secret
+```
 
 ## Test API
 This is an example of postman collection: [Download Collection Here](https://drive.google.com/file/d/1rJXa48TfjP3SwEv6LxkDcAMlA3RJHtdi/view?usp=sharing)
